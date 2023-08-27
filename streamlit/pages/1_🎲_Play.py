@@ -21,7 +21,8 @@ with col2:
 
     st.write(chosen_letters_to_start)
 
-    text_input = st.text_input('Enter some text 👇')
+    #text_input = st.text_input('Enter some text 👇')
+    text_input = st.text_input('')
 
     if text_input:
 

@@ -58,4 +58,12 @@ def get_letters_to_start():
 
         chosen_letters_to_start.append(random_pick_of_the_game[starting_position + i])
 
-    return chosen_letters_to_start
+
+    # Joins letters
+    letters_joined = ''
+
+    for c in chosen_letters_to_start:
+
+        letters_joined += c
+
+    return letters_joined.upper()
