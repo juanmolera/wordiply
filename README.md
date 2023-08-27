@@ -1,3 +1,3 @@
 # wordiply
 
-Para que juegues siempre que quieras, te quiero mami.
+This repository contains a replica of the Wordiply game from The Guardian newspaper, which my mother loves. This version allows you to play an unlimited number of times per day, unlike the original, where your number of daily games is limited to one. Also, unlike the original, it is calculated how good your solution is based on the dictionary and not based on the answers of other users.
