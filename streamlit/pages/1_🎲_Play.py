@@ -6,6 +6,7 @@ from PIL import Image
 
 # My functions
 from src import game_start_set_up_functions as setup
+from src import input_word_function as input
 
 st.set_page_config(layout='wide', initial_sidebar_state='collapsed', page_title='Play', page_icon='🎲')
 
@@ -21,12 +22,13 @@ with col2:
 
     st.write(chosen_letters_to_start)
 
-    #text_input = st.text_input('Enter some text 👇')
-    text_input = st.text_input('')
+    for i in range(1,6):
 
-    if text_input:
+        text_input = input.input_word(i)
 
-        st.write('You entered: ', text_input)
+        if text_input:
+
+            st.write('You entered: ', text_input)
 
 with col3:
 
